@@ -10,7 +10,7 @@
 html {
   background-image: url(./images/edufair-bg.png);
 }
-  
+
 html,
 body {
   overflow-x: hidden;
@@ -35,15 +35,15 @@ body {
   background-color: black;
 }
 
-.ham-icon.active .ham-span-btn:nth-child(1){
+.ham-icon.active .ham-span-btn:nth-child(1) {
   transform: translateY(10px) rotate(45deg);
 }
 
-.ham-icon.active .ham-span-btn:nth-child(2){
+.ham-icon.active .ham-span-btn:nth-child(2) {
   opacity: 0;
 }
 
-.ham-icon.active .ham-span-btn:nth-child(3){
+.ham-icon.active .ham-span-btn:nth-child(3) {
   transform: translateY(-10px) rotate(-45deg);
 }
 
@@ -71,7 +71,6 @@ body {
   border-style: solid;
   border-color: white;
   width: 90%;
-  
 }
 
 .event-para1 {
@@ -176,7 +175,7 @@ body {
 }
 
 .title {
-color: #ec5242;
+  color: #ec5242;
 }
 
 .sponsors {
@@ -243,9 +242,9 @@ color: #ec5242;
   justify-content: space-around;
   font-size: xx-large;
   align-items: center;
-  }
+}
 
-  /* ABOUT PAGE */
+/* ABOUT PAGE */
 
 .about-section-header {
   display: flex;
@@ -431,6 +430,6 @@ color: #ec5242;
     margin-bottom: 10px;
     height: 30px;
     align-items: center;
-}
+  }
 
 }
