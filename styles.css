@@ -419,4 +419,18 @@ color: #ec5242;
     color: #32363e;
   }
 
+  .campaign {
+    border-style: solid;
+    display: flex;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-color: #ec5242;
+    border-width: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    align-items: center;
+}
+
 }
