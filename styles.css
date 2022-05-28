@@ -460,28 +460,28 @@ body {
 
   .event-para2 {
     margin-bottom: 100px;
-}
+  }
 
 .event-para {
     width: 50%;
     margin-bottom: 25px;
-}
+  }
 
 .highlight {
     width: 50%;
     margin-top: 70px;
-}
+  }
 
 .program-outline {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 5px;
     flex-direction: column;
-}
+  }
 
 .program {
     flex-direction: column;
-}
+  }
 
 #guest-speakers {
     display: grid;
@@ -489,11 +489,11 @@ body {
     padding-left: 10%;
     padding-right: 10%;
     gap: 15px;
-}
+  }
 
 .join-program {
     display: none;
-}
+  }
 
 .entire-program {
     display: flex;
@@ -504,7 +504,7 @@ body {
 
 .entire-program a {
     color: white;
-}
+  }
 
 .edu-events {
     display: flex;
@@ -512,7 +512,7 @@ body {
     align-items: center;
     gap: 15px;
     margin-bottom: 80px;
-}
+  }
 
 .about-footer {
     display: flex;
@@ -520,9 +520,9 @@ body {
     gap: 50px;
     background-color: #272a31;
     color: white;
-}
+  }
 
 .sponsors {
     display: none;
-}
+  }
 }
