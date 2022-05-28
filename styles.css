@@ -360,10 +360,10 @@ body {
 }
 
 .about-footer {
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    background-color: white;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  background-color: white;
 }
 
 /* DESKTOP MEDIA QUERIES */
@@ -416,7 +416,7 @@ body {
     height: 70px;
   }
 
-  .desk-nav-two :hover{
+  .desk-nav-two :hover {
     color: #ec5242;
   }
 
@@ -445,7 +445,7 @@ body {
     height: 30px;
     align-items: center;
   }
-  
+
   .event-info {
     margin-left: 10%;
   }
