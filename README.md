@@ -11,7 +11,7 @@ Major languages : HTML5, CSS3 , JAVASCRIPT
 Frameworks
 Technologies used
 Live Demo (if available)
-Live Demo Link
+Live Demo [Link](https://www.loom.com/share/78d34810b5a34a46a9bcfa19261dd4f3) 
 
 ## Getting Started
 
@@ -25,19 +25,15 @@ Clone the repository to your local machine through your code editor using git cl
 ### Usage
 ### Run tests
 ### Deployment
-https://KingKowa.github.io/Create_EduFair_2022/
+[Link](https://kingkowa.github.io/Education-Fair/)
 ### Authors
 ###### 👤 Author1 Frederick Ankomah
 
-GitHub: @KingKowa
+GitHub: [@KingKowa](https://github.com/KingKowa)
 Twitter: @kingkowa1
 LinkedIn: https://www.linkedin.com/in/frederick-ankomah-424548196
 
 ###### 👤 Author2 
-
-GitHub: 
-Twitter: 
-LinkedIn: 
 
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!

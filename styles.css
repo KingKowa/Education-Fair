@@ -70,7 +70,7 @@ body {
 .event-para {
   border-style: solid;
   border-color: white;
-  width: 90%;
+  width: 60%;
 }
 
 .event-para1 {
@@ -83,7 +83,7 @@ body {
 }
 
 .event-date {
-  color: #272a31;
+  color: #666d7d;
   font-family: 'COCOGOOSE', sans-serif;
   font-size: 20px;
 }
@@ -159,6 +159,10 @@ body {
   flex-direction: column;
   align-items: center;
   background-color: white;
+}
+
+.entire-program {
+  display: none;
 }
 
 .guest-speakers h3 {
@@ -251,10 +255,7 @@ body {
   flex-direction: column;
   align-items: center;
   text-align: center;
-}
-
-.about-section-header h1 {
-  color: #ec5242;
+  width: 90%;
 }
 
 .about-section-header h2 {
@@ -358,6 +359,13 @@ body {
   padding-top: 50px;
 }
 
+.about-footer {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background-color: white;
+}
+
 /* DESKTOP MEDIA QUERIES */
 
 @media only screen and (min-width: 768px) {
@@ -372,6 +380,7 @@ body {
   .desk-nav-bar {
     display: flex;
     flex-direction: column;
+    position: fixed;
   }
 
   .desk-nav-one {
@@ -404,6 +413,11 @@ body {
     padding-left: 100px;
     align-items: center;
     background-color: white;
+    height: 70px;
+  }
+
+  .desk-nav-two :hover{
+    color: #ec5242;
   }
 
   .desk-nav-two ul {
@@ -431,4 +445,84 @@ body {
     height: 30px;
     align-items: center;
   }
+  
+  .event-info {
+    margin-left: 10%;
+  }
+
+  .event-info h2 {
+    font-size: 50px;
+  }
+
+  .event-info h1 {
+    font-size: 35px;
+  }
+
+  .event-para2 {
+    margin-bottom: 100px;
+}
+
+.event-para {
+    width: 50%;
+    margin-bottom: 25px;
+}
+
+.highlight {
+    width: 50%;
+    margin-top: 70px;
+}
+
+.program-outline {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.program {
+    flex-direction: column;
+}
+
+#guest-speakers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 10%;
+    padding-right: 10%;
+    gap: 15px;
+}
+
+.join-program {
+    display: none;
+}
+
+.entire-program {
+    display: flex;
+    text-decoration: underline;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+.entire-program a {
+    color: white;
+}
+
+.edu-events {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 80px;
+}
+
+.about-footer {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background-color: #272a31;
+    color: white;
+}
+
+.sponsors {
+    display: none;
+}
 }
